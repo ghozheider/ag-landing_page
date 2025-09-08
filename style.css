@@ -349,6 +349,7 @@ body {
 .review {
   display: flex;
   flex-direction: column;
+  gap: 75px;
 }
 
 .review-header {
@@ -406,7 +407,10 @@ body {
   border-radius: 30px;
   padding: 40px;
   width: 465px;
-  
+  height: 280px;
+  flex-shrink: 0;
+  gap: 19px;
+  color: #fff;
 }
 
 .review-1 {
@@ -452,4 +456,139 @@ body {
   height: 248px;
   width: 513px;
   border: 1px solid #75757533;
+  flex-shrink: 0;
+  gap: 19px;
+}
+
+/* pricing */
+.pricing {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.pricing-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.pricing-h1 {
+  margin-bottom: 27px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4A3AFF;
+}
+
+.pricing-h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.pricing-h3 {
+  width: 742px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #170F49;
+}
+
+.pricing-list {
+  display: flex;
+  border: 1px solid #702DFF;
+  border-radius: 20px;
+  height: 448px;
+
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 70px;
+  justify-content: center;
+}
+
+.price-h1 {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.price-icon {
+  display: flex;
+  width: 72px;
+  height: 72px;
+  padding: 17px;
+  background-color: #ECEBFF;
+  border-radius: 16px;
+}
+
+.price-h1-ln1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6F6C90;
+}
+.price-h1-ln2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #170F49;
+}
+.price-h2 {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6F6C90;
+}
+.price-literally{
+  display: flex;
+  align-items: baseline;
+}
+.price-literally-ln1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #170F49;
+}
+.price-literally-ln2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #6F6C90;
+}
+.pricing-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #702DFF;
+  height: 448px;
+  width: 579px;
+  border-radius: 0 19px 19px 0;
+  padding: 84px 84px 84px 156px;
+  gap: 24px;
+}
+.pricing-feature-h0 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.pricing-feature-included {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.pricing-feature-header {
+  display: flex;
+  gap: 14px;
+}
+.pricing-feature-header-icon {
+  display: flex;
+  background-color: #fff;
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  padding: 7px;
+}
+.pricing-feature-list {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
 }
